@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
             actNw.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) -> "WIFI"
             actNw.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET) -> "ETHERNET"
             actNw.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) -> "MOBILE NETWORK"
-            else -> "Something went wrong"
+            else -> "Something went wrong.."
         }
     }
 }
